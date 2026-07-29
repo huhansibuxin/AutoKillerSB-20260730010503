@@ -1,0 +1,9 @@
+Package: com.huhansibuxin.autokiller-sb
+Name: AutoKillerSB
+Version: 1.0-1+debug
+Architecture: iphoneos-arm64
+Description: Kill Alipay after 60s in background (SpringBoard-side)
+Maintainer: huhansibuxin
+Author: huhansibuxin
+Section: Tweaks
+Depends: mobilesubstrate
