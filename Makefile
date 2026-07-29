@@ -9,6 +9,6 @@ TWEAK_NAME = AutoKillerSB
 AutoKillerSB_FILES = Tweak.xm
 AutoKillerSB_CFLAGS = -fobjc-arc
 AutoKillerSB_FRAMEWORKS = UIKit
-AutoKillerSB_PRIVATE_FRAMEWORKS = FrontBoard
+AutoKillerSB_LDFLAGS = -Wl,-undefined,dynamic_lookup
 
 include $(THEOS_MAKE_PATH)/tweak.mk
